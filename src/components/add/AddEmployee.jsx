@@ -40,7 +40,7 @@ const AddEmployee = ({ addEmployee }) => {
 
   return (
     <div className="add-employee-container">
-      <h2 className="add-employee-title">Add Employee</h2>
+      <h1 className="add-employee-title">Fill The Form</h1>
       <form onSubmit={handleSubmit} className="add-employee-form">
         <div className="form-group">
           <label htmlFor="EmployeeId">Employee ID:</label>

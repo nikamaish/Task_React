@@ -1,12 +1,13 @@
-AddEmployee.css */
+
 .add-employee-container {
     font-family: 'Inter', sans-serif;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 10vh auto;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
   }
   
   .add-employee-title {
@@ -34,7 +35,7 @@ AddEmployee.css */
   .form-group input {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #aca9a9;
     border-radius: 4px;
     font-size: 16px;
   }
@@ -55,12 +56,19 @@ AddEmployee.css */
     background-color: #6a0dad;
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 20px;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: auto;
+    min-width: 120px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   
   .submit-button:hover {
     background-color: #8a2be2;
