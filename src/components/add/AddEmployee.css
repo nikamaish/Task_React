@@ -1,0 +1,73 @@
+/* AddEmployee.css */
+.add-employee-container {
+    font-family: 'Inter', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-employee-title {
+    color: #6a0dad;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-employee-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #6a0dad;
+    box-shadow: 0 0 0 2px rgba(106, 13, 173, 0.1);
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #8a2be2;
+  }
+  
+  @media (max-width: 600px) {
+    .add-employee-container {
+      padding: 15px;
+    }
+  }
