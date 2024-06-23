@@ -7,8 +7,8 @@ import './App.css'
 
 const App = () => {
   const [employees, setEmployees] = useState([
-    { EmployeeId: '1', EmpName: 'John Doe', Department: 'IT', Salary: 50000 },
-    { EmployeeId: '2', EmpName: 'Jane Smith', Department: 'HR', Salary: 60000 },
+    { EmployeeId: '1', EmpName: 'Aish Nikam', Department: 'IT', Salary: 50000 },
+    { EmployeeId: '2', EmpName: 'Harry Potter', Department: 'HR', Salary: 60000 },
   ]);
 
   const addEmployee = (newEmployee) => {

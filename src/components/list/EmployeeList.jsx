@@ -4,7 +4,7 @@ import '../list/EmployeeList.css'
 const EmployeeList = ({ employees }) => {
   return (
     <div>
-      <h2>Employee List</h2>
+      <h1>Employee List</h1>
       <table>
         <thead>
           <tr>
