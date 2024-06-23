@@ -5,6 +5,9 @@ const EmployeeList = ({ employees }) => {
   return (
     <div>
       <h1>Employee List</h1>
+      <div className='table-container'>
+
+      
       <table>
         <thead>
           <tr>
@@ -25,6 +28,7 @@ const EmployeeList = ({ employees }) => {
           ))}
         </tbody>
       </table>
+      </div>
     </div>
   );
 };
