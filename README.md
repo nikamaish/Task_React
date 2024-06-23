@@ -22,11 +22,11 @@ npm start
 
 ## Deployment
 The project is deployed on Vercel. You can view the live application at:
-![Deployed Webpage](https://task-react-vert.vercel.app)
+[Deployed Webpage](https://task-react-vert.vercel.app)
 
 
 ## Usage
-Open the application in your browser.
-Fill out the form with the required data.
-Submit the form to see the data added to the table.
-The table will update dynamically with each new submission and it will check validation also.
+- Open the application in your browser.
+- Fill out the form with the required data.
+- Submit the form to see the data added to the table.
+- The table will update dynamically with each new submission and it will check validation also.
