@@ -17,7 +17,7 @@
 
 .navbar-container {
   display: flex;
-  justify-content: flex-end;  /* Changed from space-between to flex-end */
+  justify-content: flex-end; 
   align-items: center;
   width: 100%;
   max-width: 1300px;
